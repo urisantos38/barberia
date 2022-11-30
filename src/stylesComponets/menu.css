@@ -1,0 +1,29 @@
+.menuBar {
+  background-color: #04ADBF;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.buttons {
+  background-color: #025E73;
+  color: white;
+  padding: 5px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: 1px solid #9f9f9f;
+}
+.menuItems {
+  list-style: none;
+}
+.menuItems li {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+  display: inline-block;
+  margin: 0 20px;
+}
+.navLogo {
+  height: 50px;
+}

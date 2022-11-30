@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="../../normalize.css" />
+    <link rel="stylesheet" href="../../generalStyles.css" />
+    <link rel="stylesheet" href="../../stylesComponets/menu.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="../../components/menu/barber-menu.html" />
+    <script src="../../scripts/dataMock.js"></script>
+    <script src="../../scripts/session.js"></script>
+    <title>Shuluri's Barber Shop</title>
+  </head>
+  <body>
+    <nav class="menuBar">
+      <a href="../home/home.html">
+        <img class="navLogo" src="../../assets/logo.png" />
+      </a>
+      <ul class="menuItems">
+        <a href="../home/home.html">
+          <li>Inicio</li>
+        </a>
+        <a href="../reservations/reservations.html">
+          <li>Reservación</li>
+        </a>
+      </ul>
+      <button class="buttons" onclick="logout()">Cerrar sesión</button>
+    </nav>
+    <div class="rootContainer">
+      <h2>Tus reservaciones</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Barbería</th>
+            <th>Servicio</th>
+            <th>Cantidad</th>
+            <th>Horario</th>
+          </tr>
+        </thead>
+        <tbody id="reservesBodyTable"></tbody>
+      </table>
+      <button class="buttonForm" onclick="submitReservation()">Hacer reservación</button>
+    </div>
+    <script src="./reservations.js"></script>
+  </body>
+</html>

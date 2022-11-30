@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="../../normalize.css" />
+    <link rel="stylesheet" href="../../generalStyles.css" />
+    <link rel="stylesheet" href="../../stylesComponets/menu.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="../../scripts/dataMock.js"></script>
+    <script src="../../scripts/session.js"></script>
+    <script src="mapa.js"></script>
+    <title>Shuluri's Barber Shop</title>
+  </head>
+  <body>
+      <nav class="menuBar">
+        <a href="./home.html">
+          <img class="navLogo" src="../../assets/logo.png" />
+        </a>
+        <ul class="menuItems">
+          <a href="./home.html">
+            <li>Inicio</li>
+          </a>
+          <a href="../reservations/reservations.html">
+            <li>Reservación</li>
+          </a>
+        </ul>
+        <button class="buttons" onclick="logout()">Cerrar sesión</button>
+      </nav>
+    
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzxNrOjj9osVt_LtImCYbskODN4GuYG3o&callback=initMap"></script>
+  </body>
+</html>

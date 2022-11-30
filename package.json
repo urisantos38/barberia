@@ -1,0 +1,20 @@
+{
+  "name": "shuluri_barber",
+  "version": "0.0.1",
+  "description": "Proyecto escolar con la base de la idea de barberías",
+  "main": "src/index.html",
+  "author": "Uriel, Miguel, Shugar, Luvi",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmiguelgg/shuluri-barber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmiguelgg/shuluri-barber/issues"
+  },
+  "homepage": "https://github.com/jmiguelgg/shuluri-barber#readme"
+}
+

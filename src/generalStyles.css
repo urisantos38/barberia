@@ -1,0 +1,52 @@
+:root {
+  --primary: #025E73;
+  --secondary: #011C26;
+  --tertiary: #0388A6;
+  --blue: #04ADBF;
+  --blue-light: #80DDF2;
+  --fontCustom: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.inputForm {
+  width: 100%;
+  padding: 5px;
+  font-family: var(--fontCustom);
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #9f9f9f;
+}
+.buttonForm {
+  background-color: var(--primary);
+  color: white;
+  padding: 8px 30px;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  font-family: var(--fontCustom);
+  font-size: 1.2em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+}
+.buttonForm:hover {
+  background-color: var(--tertiary);
+}
+.rootContainer {
+  width: calc(100% -40px);
+  padding: 10px 20px;
+}
+a {
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, p, span, a {
+  font-family: var(--fontCustom);
+}
+h1, h2 {
+  text-align: center;
+  color: #011C26;
+}
